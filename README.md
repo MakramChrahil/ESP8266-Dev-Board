@@ -9,9 +9,7 @@ To get started with the ESP8266 I found a development board, which has already s
 1 buzzer  
 1 RGB LED  
 
-On the board there is also a usb/serial converter to directly connect the board to the PC and a voltage regulator, which generates the 3.3V for the ESP chip. You can get it at eBay or Aliexpress starting 15$. It comes with the ESP module.  
-
-The unit consists of 2 boards. One is the ESP8266 module without all the peripherals and usb/serial chip. This board can be purchased also separately for about 4$.  
+On the board there is also a usb/serial converter to directly connect the board to the PC and a voltage regulator, which generates the 3.3V for the ESP chip. The board comes with the ESP module. 
 
 It is breadboard friendly and has an antenna connector. The second board does have all the other components. The different components on the board can be enabled separately using some DIP switches. All external pins of the ESP module are also accessible via pins on the board. So you cannot only work with the on board components.  
 
@@ -36,15 +34,16 @@ Switch 3 nodemcu 4
 
 ## DIP switches  
 
-DIP SWITCH	FUNCTION  
-1	RGB LED Red 
-2	RGB LED Green  
-3	RGB LED Blue
-4	White LED
-5	Relais
-6	Buzzer
-7	has to be always one
-8	turn on to flash firmware
+| DIP SWITCH	    |  FUNCTION               |
+| -------------   | -------------           |
+|  1	            |RGB LED Red              |
+|  2	            |RGB LED Green            |
+|  3	            |RGB LED Blue             |
+|  4	            |White LED                |
+|  5	            |Relais                   |
+|  6	            |Buzzer                   |
+|  7              |has to be always one     |
+|  8	            |turn on to flash firmware|
 
 ## On board DHT11 / DHT22
 
