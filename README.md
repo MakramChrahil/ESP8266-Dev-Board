@@ -1,6 +1,6 @@
 # ESP8266-Dev-Board
 ## Description
-To get started with the ESP8266 I found a development board, which has already several components integrated. These are:  
+The ESP8266 development board has several components integrated. These are:  
 
 1 Relais  
 1 DHT11 temperature and humidity sensor  
