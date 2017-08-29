@@ -21,11 +21,12 @@ Windows :  https://goo.gl/cJ3QDm
 
 Unfortunately this development board comes without any documentation. I was also unable to find any on the internet. With try and error I was able to find out most of the things. The only thing I was not able to get working is the red LED. May bee there is something broken on my board. If you have something to add – please et me know.  
 
-FUNCTION	   NODEMCU PIN NUMBER	     ESP8266 GPIO	DIP     SWITCH NUMBER TO ENABLE  
-Relais	            0	                    16	                 5  
-RGB LED green       7                   	13	                 2  
-RGB LED blue	      6	                    12	                 3  
-Buzzer	            1                    	5                  	 5  
+| FUNCTION      | NODEMCU PIN NUMBER | ESP8266 GPIO	DIP  | SWITCH NUMBER TO ENABLE |
+| ------------- | -------------      | -------------     |-------------            |
+| Relais        | 0	                 |  16               |   5                     |
+| RGB LED green | 7                  |13                 |   2                     |
+| RGB LED blue  | 6                  |12                 |   3                     |
+| Buzzer        | 1                  |5                  |   5                     |
 
 ## Switches  
 
